@@ -5,8 +5,6 @@
   "main": "server.js",
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "webpack": "webpack --watch",
-    "prestart": "npm run webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
